@@ -1,0 +1,68 @@
+.about {
+  background: var(--color-white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 48px;
+}
+
+.card {
+  background: var(--color-cream);
+  padding: 36px 28px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.cardIcon {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+  color: var(--color-text);
+}
+
+.card p {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  line-height: 1.9;
+}
+
+.message {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(
+    135deg,
+    var(--color-blush) 0%,
+    var(--color-sage-light) 100%
+  );
+  border-radius: var(--radius-md);
+}
+
+.message p {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  line-height: 2.2;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .message {
+    padding: 28px 20px;
+  }
+}

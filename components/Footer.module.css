@@ -1,0 +1,56 @@
+.footer {
+  background: var(--color-text);
+  color: rgba(255, 255, 255, 0.7);
+  padding: 48px 0 32px;
+}
+
+.inner {
+  text-align: center;
+}
+
+.brand {
+  margin-bottom: 28px;
+}
+
+.logoIcon {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.logoText {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.tagline {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: var(--color-rose);
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 24px;
+}
