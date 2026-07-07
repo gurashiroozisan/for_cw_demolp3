@@ -19,8 +19,7 @@ export const kittens: Kitten[] = [
     status: "募集中",
     description:
       "人懐っこくて、膝の上が大好きな甘えん坊です。他の子猫とも仲良く遊べます。",
-    image:
-      "https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?w=600&h=450&fit=crop",
+    image: "/images/milk.jpg",
   },
   {
     id: "2",
@@ -31,8 +30,7 @@ export const kittens: Kitten[] = [
     status: "募集中",
     description:
       "好奇心旺盛で元気いっぱい。おもちゃ遊びが大好きで、毎日の遊び時間を楽しみにしています。",
-    image:
-      "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=450&fit=crop",
+    image: "/images/sora.jpg",
   },
   {
     id: "3",
@@ -43,8 +41,7 @@ export const kittens: Kitten[] = [
     status: "募集中",
     description:
       "おっとりした性格で、静かな環境が向いています。優しく撫でてもらうのが大好きです。",
-    image:
-      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=450&fit=crop",
+    image: "/images/kohaku.jpg",
   },
   {
     id: "4",
@@ -55,8 +52,7 @@ export const kittens: Kitten[] = [
     status: "交渉中",
     description:
       "美しい模様が特徴的。人見知りですが、慣れるととても甘えてきます。",
-    image:
-      "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=600&h=450&fit=crop",
+    image: "/images/luna.jpg",
   },
   {
     id: "5",
@@ -67,8 +63,7 @@ export const kittens: Kitten[] = [
     status: "募集中",
     description:
       "ふわふわの毛並みが自慢。食いしん坊で、ごはんの時間をとても楽しみにしています。",
-    image:
-      "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&h=450&fit=crop",
+    image: "/images/moka.jpg",
   },
   {
     id: "6",
@@ -79,8 +74,7 @@ export const kittens: Kitten[] = [
     status: "募集中",
     description:
       "おとなしくて穏やかな性格。初めて猫を飼う方にもおすすめです。",
-    image:
-      "https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=600&h=450&fit=crop",
+    image: "/images/hana.jpg",
   },
 ];
 
