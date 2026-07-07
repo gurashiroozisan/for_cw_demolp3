@@ -34,7 +34,7 @@ export default function Hero() {
         <div className={styles.visual}>
           <div className={styles.imageWrapper}>
             <Image
-              src="https://images.unsplash.com/photo-1573865526739-10659fec247a?w=700&h=600&fit=crop"
+              src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=700&h=600&fit=crop"
               alt="可愛い子猫"
               width={700}
               height={600}

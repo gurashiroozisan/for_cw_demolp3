@@ -68,7 +68,7 @@ export const kittens: Kitten[] = [
     description:
       "ふわふわの毛並みが自慢。食いしん坊で、ごはんの時間をとても楽しみにしています。",
     image:
-      "https://images.unsplash.com/photo-1492370280494-39889d48ab4f?w=600&h=450&fit=crop",
+      "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&h=450&fit=crop",
   },
   {
     id: "6",
@@ -80,7 +80,7 @@ export const kittens: Kitten[] = [
     description:
       "おとなしくて穏やかな性格。初めて猫を飼う方にもおすすめです。",
     image:
-      "https://images.unsplash.com/photo-1513245543132-31f507addb60?w=600&h=450&fit=crop",
+      "https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?w=600&h=450&fit=crop",
   },
 ];
 
